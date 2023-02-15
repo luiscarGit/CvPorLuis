@@ -21,6 +21,7 @@
 
 html{
     font-size: 62.5%;
+    "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 header{
@@ -32,18 +33,18 @@ header{
 }
 
 .logo_icon{
-    width: 100px;
-    max-width: 150px;
-    height: 35px;
+    width: 50px;
+    max-width: 100px;
+    height: 25px;
     margin: auto;
-    background-image: url(./Iconos/logo_icon.png);
+    background-image: url(./Iconos/Logo.svg);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
 }
 .menu_content{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     background-image: url(./Iconos/menu1.svg);
     background-size: 80%;
     background-position: center;
@@ -64,6 +65,7 @@ header{
     height: 400px;
     max-width: 600px;
     background-image: url(./Iconos/photo_perfil.jpg);
+    padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
     background-position: center;
@@ -74,10 +76,10 @@ header{
     color: var(--white);
     font-family: 'Comfortaa', cursive;
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: 5%;
     margin-left: 20px;
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 
@@ -85,10 +87,10 @@ header{
     color: #B44234;
     font-family: 'Comfortaa', cursive;
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 7%;
     margin-left: 20px;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .perfil-section_content{
@@ -107,7 +109,8 @@ header{
     font-family: 'Comfortaa', cursive;
     text-align: center;
     padding-top: 30px;
-    font-size: 2.4rem;
+    padding-bottom: 0;
+    font-size: 2rem;
     font-weight: bolder;
 }
 
@@ -123,8 +126,8 @@ header{
     margin-bottom: 0;
     font-size: 1.4rem;
     font-family: 'Comfortaa', cursive;
-    line-height: 1.8rem;
-    padding-bottom: 30px;
+    line-height: 2rem;
+    padding-top: 15px;
 }
 
 .skil-section_content{
@@ -132,9 +135,10 @@ header{
     width: 100%;
     height: 600px;
     display: grid;
+    
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr 1fr;
-
+    
 }
 
 .skil-section_content .skil-section_imgG{
@@ -150,7 +154,7 @@ header{
 
 .skil-section_content .skil-section_imgG h1{
     
-    color: var(--white);
+    color: var(--colormain1);
     font-family: 'Comfortaa', cursive;
     text-align: center;
     padding-top: 30px;
@@ -161,7 +165,8 @@ header{
     background-position: center;
     background-size: 60%;
     background-repeat: no-repeat;
-    border: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
 }
 
 .skil-section_content .skil-section_img2{
@@ -169,7 +174,8 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
-    border: 1px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
 }
 
 .skil-section_content .skil-section_img3{
@@ -177,7 +183,8 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
-    border: 1px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
 }
 
 .skil-section_content .skil-section_img4{
@@ -185,6 +192,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
-    border: 1px solid black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
 }
 
